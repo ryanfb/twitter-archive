@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta property="og:url" content="https://ryanfb.xyz/twitter-archive/ryanfb/status/963456668909662209" />
+  <meta property="og:title" content="Ryan Baumann / @ryanfb@digipres.club / ryanfb.xyz on Twitter (archived)" />
+  <meta property="og:description" content="So, how to get it even faster without a total rewrite? I used Puppeteer to cache the JS-rendered HTML (14MB uncompressed but 784kb gzipped) to be served static, and the JS now only adds entries that don't already exist in the cached version." />
+  
+  
+
+  <title>So, how to get it even faster without a total rewrite? I used Puppeteer to cache the JS-rendered HTML (14MB uncompressed but 784kb gzipped) to be served static, and the JS now only adds entries that don't already exist in the cached version.</title>
+  <link rel="stylesheet" href="../../../styles.css">
+</head>
+<body>
+  <div class="wrapper">
+  	<div class="flex-wrap">
+      <a href="../../../">
+        <p>&larr; @ryanfb Twitter archive</p>
+      </a>
+      
+  	  <article class="tweet parent " >
+  	    <p class="display_name">
+  	      Ryan Baumann / @ryanfb@digipres.club / ryanfb.xyz
+  	    </p>
+  	    <p class="user_name">
+  	      @ryanfb
+  	    </p>
+  	    <p class="full_text">
+  	      Got rendering a gigantic webpage down to 15 seconds from 70 seconds, and it still feels glacial…
+  	    </p>
+  	    <p class="created_at">
+  	      2/7/2018, 5:09:00 PM
+  	    </p>
+  	    <p class="favorite_count">Favs: 2</p>
+  	    <p class="retweet_count">Retweets: 1</p>
+  	    <a class="permalink" href="../961361177057091586">link</a>
+  	  </article>
+
+
+  	  <article class="tweet parent " >
+  	    <p class="display_name">
+  	      Ryan Baumann / @ryanfb@digipres.club / ryanfb.xyz
+  	    </p>
+  	    <p class="user_name">
+  	      @ryanfb
+  	    </p>
+  	    <p class="full_text">
+  	      The page in question now renders and is interactive almost instantly, and I'm torn between if this is the dumbest or the smartest thing ever: <a href="https://dcthree.github.io/photios/">https://dcthree.github.io/photios/</a>
+  	    </p>
+  	    <p class="created_at">
+  	      2/13/2018, 11:49:35 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 1</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../963455122012557312">link</a>
+  	  </article>
+
+
+  	  <article class="tweet parent " >
+  	    <p class="display_name">
+  	      Ryan Baumann / @ryanfb@digipres.club / ryanfb.xyz
+  	    </p>
+  	    <p class="user_name">
+  	      @ryanfb
+  	    </p>
+  	    <p class="full_text">
+  	      Basically, this page was originally built out of an AJAX request for data, that JS used to render the entire page dynamically. But once we were at 15000+ entries, even the most optimized version took 15 seconds just in rendering.
+  	    </p>
+  	    <p class="created_at">
+  	      2/13/2018, 11:52:41 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 1</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../963455900479643648">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  " id="main">
+  	    <p class="display_name">
+  	      Ryan Baumann / @ryanfb@digipres.club / ryanfb.xyz
+  	    </p>
+  	    <p class="user_name">
+  	      @ryanfb
+  	    </p>
+  	    <p class="full_text">
+  	      So, how to get it even faster without a total rewrite? I used Puppeteer to cache the JS-rendered HTML (14MB uncompressed but 784kb gzipped) to be served static, and the JS now only adds entries that don't already exist in the cached version.
+  	    </p>
+  	    <p class="created_at">
+  	      2/13/2018, 11:55:44 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 1</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../963456668909662209">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="display_name">
+  	      Ryan Baumann / @ryanfb@digipres.club / ryanfb.xyz
+  	    </p>
+  	    <p class="user_name">
+  	      @ryanfb
+  	    </p>
+  	    <p class="full_text">
+  	      So: the same JS can either build the entire page from scratch, or update a previously generated version. Jekyll serves up the cached version via require_relative, and Puppeteer is used to render that HTML by hitting Jekyll for the same page without the require_relative.
+  	    </p>
+  	    <p class="created_at">
+  	      2/13/2018, 11:59:32 AM
+  	    </p>
+  	    <p class="favorite_count">Favs: 1</p>
+  	    <p class="retweet_count">Retweets: 0</p>
+  	    <a class="permalink" href="../963457622740381697">link</a>
+  	  </article>
+
+  	</div>
+  </div>
+</body>
+<script>
+document.getElementById('main').scrollIntoView();
+</script>
+</html>
